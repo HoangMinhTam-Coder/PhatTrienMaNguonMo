@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mb__10 {
+    margin-bottom: 10px;
+}
+/* .bg__custom {
+    background-color: #54BAB9 !important;
+} */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #E9DAC1, #54BAB9) no-repeat;
+    height: 84vh;
+}
+
+
+.form__container {
+    max-width: 720px;
+    padding: 32px;
+    margin: 100px auto 0 auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form__title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.form__item {
+    padding: 8px 0;
+    display: flex;
+}
+
+.form__input {
+    flex: 1;
+    padding: 4px;
+    outline: none;
+}
+
+.form__label {
+    min-width: 160px;
+}
+
+/* .form__item:nth-child(5) {
+    margin-bottom: 10px;
+} */
+
+.form__submit {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background: #C6EBC5;
+    border: none;
+   
+}
